@@ -2,15 +2,16 @@
 using namespace std;
 
 int main(){
-    int person;
-    cout<<"age of person is ";
-    cin>>person;
-    if(person>=18){
-        cout<<"person can vote"<<endl;
-    } if(person>30){
-        cout<<"he/she is eligible to become a pm"<<endl;
-    } 
-    else{
-       cout<<"person cannot vote"<<endl;
-    return 0; 
-    }}
+    float a,b;
+    cout<<"enter the number a : ";
+    cin>>a;
+    cout<<"enter the number b: ";
+    cin>>b;
+    if(a>b){
+        cout<<"a is greater"<<endl;
+
+    }else{
+        cout<<"b is greater"<<endl;
+    }
+    return 0;
+}
