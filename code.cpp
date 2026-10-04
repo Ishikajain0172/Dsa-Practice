@@ -2,16 +2,14 @@
 using namespace std;
 
 int main(){
-    float a,b;
-    cout<<"enter the number a : ";
-    cin>>a;
-    cout<<"enter the number b: ";
-    cin>>b;
-    if(a>b){
-        cout<<"a is greater"<<endl;
-
+    int num;
+    cout<<"enter the number : ";
+    cin>>num;
+    if(num%2==0){
+        cout<<"the number is even : "<<num<<endl;
     }else{
-        cout<<"b is greater"<<endl;
+        cout<<"the number is odd : "<<num<<endl;
     }
+
     return 0;
 }
